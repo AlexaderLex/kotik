@@ -1,0 +1,3 @@
+https://www.google.com/search?q=js%20site%3Aw3schools.com&oq=inurl%3Ahttps%3A%2F%2Fwww.w3schools.com
+
+https://www.google.com/search?inurl%3Ahttps%3A%2F%2Fwww.w3schools.com

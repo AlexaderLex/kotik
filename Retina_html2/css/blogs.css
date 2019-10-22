@@ -1,0 +1,168 @@
+ 
+ .blogs {
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+    /* border-top: 1px dotted #fff; */
+    border-bottom: 1px dotted #fff;
+ }
+ .sectionBlog-wrap {
+     margin: 25px 0;
+     padding-top: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     background-color: #f2f2f2;
+ }
+
+ .sectionBlog-wrap {
+    margin: 30px 20px 10px 20px;
+ }
+
+ .lastBlog h3, .project h3, .testimon h3 {
+    width: 286px;
+    height: 34px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 8px;
+    padding: 0 0 12px;
+    color: #4a4a4a;
+    border-bottom: 1.5px solid #dfdfdf;
+    
+}
+
+.lastBlog h3::after {
+    margin-top: 14px;
+    display: block;
+    content: " ";
+    border-bottom: 1px dotted white;
+}
+
+.project h3::after {
+    margin-top: 14px;
+    display: block;
+    content: " ";
+    border-bottom: 1px dotted white;
+}
+
+.testimon h3::after {
+    margin-top: 14px;
+    display: block;
+    content: " ";
+    border-bottom: 1px dotted white;
+}
+
+ .lastBlogDiv, .projectDiv, .testimonDiv {
+    margin: 10px 10px 10px 3px;
+    padding: 5px 5px 5px 0;
+    width: 286px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+ .projectH5, .testimonH5 {
+    width: 286px;
+    padding-bottom: 10px;
+    color: rgb(114, 114, 114);
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700px;
+    line-height: 22px;
+ }
+
+ .entry {
+    position: relative;
+    padding: 0 40px 0 0;
+    width: 64px;
+    height: 62px;
+    background-image: url("../img/date-ico.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: initial;
+    text-align: center;
+    float: left;
+ }
+
+ .dateS {
+     position: absolute;
+     top: 0;
+     left: 4px;
+     color: #00acef;
+     font-family: Arial, sans-serif;
+     font-size: 22px;
+     font-weight: 700;
+     margin-left: 11px;
+     margin-top: 15px;
+ }
+
+ .monthS {
+     position: absolute;
+     top: 20px;
+     right: 5px;
+     display: inline-block;
+     font: 12px Verdana, Arial, sans-serif;
+     font-weight: 700;
+     color: #bdbdbd;
+     transform: rotate(-90deg);
+ }
+
+ .yearS {
+     position: absolute;
+     font: 9px Verdana, Arial, sans-serif;
+     color: #c6c6c6;
+     top: 38px;
+     left: 19px;
+ }
+
+ .autor {
+     display: inline-block;
+     color: #cbcbcb;
+     font: 12px Verdana, Arial, sans-serif;
+     margin-top: 8px;
+ }
+
+ .bullShit {
+     text-decoration: none;
+     color: #00acef;
+     font: 12px Verdana, Arial, sans-serif;
+ }
+
+ .clean-fix {
+     clear: both;
+ }
+
+ .text-wrap {
+     display: flex;
+     flex-flow: column nowrap;
+     padding: 15px;
+ }
+
+ .lastEntry {
+    border-bottom: 1px solid #cccc;
+ }
+
+ .lastEntry::after {
+    margin-bottom: -1px;
+    display: block;
+    content: " ";
+    border-bottom: 1px dotted white;
+ }
+
+ .quote {
+     margin-bottom: 30px;
+     color: #898989;
+     font: 14px Georgia, Arial, sans-serif;
+     line-height: 21px;
+ }
+
+ .quote .str{
+     font-size: 26px;
+ }
+
+ .quote span {
+     margin-left: 70px;
+     padding-top: 8px;
+ }
+
+ .blueArr {
+     list-style: none;
+ }

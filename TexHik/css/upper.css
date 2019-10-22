@@ -1,0 +1,145 @@
+.upper {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px auto;
+    width: 952px;
+}
+
+.upDiv {
+    position: relative;
+    width: 239px;
+}
+
+.arenda img {
+    position: absolute;
+    left: 79px;
+    top: 15px;
+    width: 37px;
+    height: 37px;
+}
+
+.arenda .spn {
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    font-size: 12px;
+    font-family: "HelveticaNeue";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.service img {
+    position: absolute;
+    top: 16px;
+    left: 85px;
+    height: 36px;
+    width: 35px;
+}
+
+.service .spn {
+    position: absolute;
+    top: 31px;
+    left: 128px;
+}
+
+.service img {
+    position: absolute;
+    top: 16px;
+    left: 85px;
+    height: 36px;
+    width: 35px;
+}
+
+.service .spn {
+    position: absolute;
+    top: 31px;
+    left: 128px;
+}
+
+.parts img {
+    position: absolute;
+    height: 35px;
+    width: 36px;
+    top: 14px;
+    left: 74px;
+}
+
+.parts .spn {
+    top: 31px;
+    left:119px;
+}
+
+.finance img {
+    position: absolute;
+    height: 41px;
+    width: 34px;
+    top: 12px;
+    left: 53px;
+}
+
+.finance .spn {
+    top: 24px;
+    left: 98px;
+}
+
+.spn {
+    position: absolute;
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.arenda{
+    display: block;
+    border-radius: 3px;
+    /* background-color:rgb(138,24,24); */
+    background-image: url("../source/Layer\ 21.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 232px;
+    height: 64px;
+    z-index: 147;
+}
+
+.service {
+    display: block;
+    border-radius: 3px;
+    background-image: url("../source/Layer\ 21.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 241px;
+    height: 64px;
+    z-index: 154;
+}
+
+.parts {
+    display: block;
+    border-radius: 3px;
+    background-image: url("../source/Layer\ 21.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 241px;
+    height: 64px;
+    z-index: 161;
+}
+
+.finance {
+    display: block;
+    border-radius: 3px;
+    background-image: url("../source/Layer\ 21.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 225px;
+    height: 64px;
+    z-index: 168;
+}
+

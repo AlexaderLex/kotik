@@ -1,0 +1,45 @@
+
+ .featureBlock {
+     margin-top: 90px;
+     /* border: 1px solid black; */
+ }
+
+ .featureNav ul {
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .featureNav li {
+    display: inline-block;
+    margin: 0 20px;
+ }
+
+ .featureNav a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Open Sans";
+    color: rgba(0, 0, 0, 0.702);
+    text-transform: uppercase;
+    line-height: 1.091;
+    text-align: left;
+ }
+
+ .featureNav a.allLi {
+     color: rgb(225,45,45);
+ }
+
+ .pics {
+     display: block;
+     margin: 67px auto;
+     width: 1249px;
+ }
+
+ .pics img {
+     margin: 10px;
+     width: 288px;
+     height: 281px;
+     border: 1px double rgb(196,192,77);
+ }
+

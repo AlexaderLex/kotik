@@ -1,0 +1,165 @@
+ 
+ .meetTeam {
+     margin-top: 60px;
+     margin-left: 164px;
+     display: inline-block;
+     width: 350px;
+ }
+ .teamText h2 {
+    margin: 0;
+    font-size: 42.216px;
+    font-family: "Open Sans";
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.31;
+    text-align: left;
+ }
+
+ .teamText p {
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    line-height: 1.75;
+    text-align: left;
+ }
+
+ .teamText img {
+     margin-top: 30px;
+ }
+
+ .picAndText {
+     display: block;
+     margin: 67px 0;
+     width: 1249px;
+ }
+
+ .picAndText .bigPic {
+     float:left;
+ }
+
+ .clean-fix {
+     clear: both;
+ }
+
+ .picText-wrap {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .p-wrap {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 380px;
+ }
+
+ .picPic {
+     align-self: flex-end;
+ }
+
+ .picPic h3 {
+     margin: 0 0 30px 0;
+    font-size: 27.527px;
+    font-family: "Open Sans";
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+ }
+
+ .picPic p {
+    margin: 0 0 20px 0;
+    width: 460px;
+    font-size: 14.606px;
+    font-family: "Open Sans";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.75;
+    text-align: left;
+ }
+
+ .p-wrap p a{
+    text-decoration: none;
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    font-family: "OpenSans";
+    color: rgba(0, 0, 0, 0.8);
+    font-style: italic;
+    line-height: 1.333;
+    text-align: left;
+ }
+
+ .p-wrap p a:link, .p-wrap p a:visited {
+    color: rgba(0, 0, 0, 0.8);
+ }
+
+ .p-wrap p a:hover {
+     color: blue;
+ }
+
+ .imgTitle-wrap {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .imgTitle {
+     display: block;
+     margin-right: 16px;
+     width: 197px;
+     height: 214px;
+     background-image: url("../media/bgimage.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 0 0;
+     border: 1px double lime;
+ }
+
+
+ .sone:hover {
+     background-image: url("../media/funnyFace1.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 0 0;
+ }
+
+ .stwo:hover {
+     background-image: url("../media/funnyFace2.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 0 0;
+ }
+
+.sthree:hover {
+     background-image: url("../media/funnyFace3.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 0 0;
+ }
+
+  .sfour:hover {
+     background-image: url("../media/funnyFace4.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 0 0;
+ }
+
+ .imgTitle-wrap span {
+    margin-top: 99%;
+    margin-left: 0;
+    display: block;
+    width: 196px;
+    font-size: 16.516px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+ }
+
+ 
+
+ 

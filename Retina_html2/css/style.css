@@ -1,0 +1,110 @@
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+ }
+html {
+    margin-bottom: 100px;
+     height: 100%;
+     background-color: #ccc;
+ }
+
+ body.testPage a.testPage, body.home a.home {
+    background-color: #029cdb;
+    color: #eee;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ body {
+     width: 981px;
+     margin: 10px auto;
+     height: 1431px;
+     /* background-image: url("../img/body-pattern.png");
+     background-repeat: repeat;
+     background-position: 0 0; */
+     background-color: #fdfdfd;
+     /* overflow: hidden; */
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+     padding: 25px 21px;
+     height: 68px;
+     width: 981px;
+     border-bottom: 2px solid #ddd;
+ }
+ 
+ .searchDiv {
+     display: flex;
+     justify-content: center;
+     align-self: center;
+     /* border: 1px solid black; */
+ }
+ .search {
+     padding: 3px;
+     width: 184px;
+     height: 26px;
+     font-size: 10px;
+     color: #666;
+     background-color: #ddd;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+
+ .navHead {
+     height: 48px;
+     padding: 6px 21px;
+     font-family: "Raleway", sans-serif;
+     font-size: 15px;
+     font-weight: 600;
+     color: #4a4a4a;
+ }
+
+ .navHead ul {
+     margin-left: 15px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-end;
+     list-style-type: none;
+ }
+
+ .navHead ul li {
+     margin:10px;
+     padding: 0 7px;
+     font-family: Raleway, sans-serif;
+     font-size: 15px;
+     font-weight: 5000;
+     color: #4a4a4a;
+ }
+
+ .navHead a {
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: 5000;
+    color: #4a4a4a;
+ }
+
+ .navHead li:hover {
+     background-color: #029cdb;
+     color: #eee;
+     border-radius: 3px;
+     cursor: pointer;
+ }
+
+ .navHead a:hover {
+    background-color: #029cdb;
+    color: #eee;
+    border-radius: 3px;
+    cursor: pointer;
+ }
+
+
+
+ 
+

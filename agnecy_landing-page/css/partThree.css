@@ -1,0 +1,94 @@
+ 
+ .part3Div {
+     margin: 10px auto;
+     display: block;
+     width: 1579px;
+     height: 512px;
+     background-image: url("../img/partThree.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 0 0;
+     border-top: 1px solid rgb(225, 240, 221);
+ }
+
+ .bigText {
+    margin-top: 148px;
+    font-size: 42px;
+    font-family: "Open Sans";
+    color: rgba(200, 200, 200, 0.8);
+    font-weight: bold;
+    line-height: 0.571;
+    text-align: center;
+ }
+
+ .smallText {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 14.606px;
+    font-family: "Open Sans";
+    color: rgba(200, 200, 200, 1);
+    line-height: 1.75;
+    text-align: center;
+ }
+
+ .formDiv {
+     margin: 50px auto;
+     margin-top: 20px;
+     display: block;
+     width: 760px;
+     height: 82px;
+ }
+
+ #email {
+     display: inline-block;
+     margin:0 auto;
+     width: 527px;
+     height: 80px;
+     border-radius: 10px;
+ }
+
+ #subscribe {
+     margin: 0 10px;
+     height: 80px;
+     width: 202px;
+     background-color: rgb(255,45,45);
+     color: #fff;
+     font-size: 12.682px;
+     font-family: "Open Sans";
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     text-transform: uppercase;
+     line-height: 1.892;
+     border-radius: 10px;
+ }
+
+ .GetInTouch {
+    margin-top: 60px;
+    margin-left: 164px;
+    display: inline-block;
+    width: 700px;
+}
+.GetInTouch h2 {
+   margin: 0;
+   font-size: 42.216px;
+   font-family: "Open Sans";
+   color: rgba(0, 0, 0, 0.8);
+   font-weight: 900;
+   text-transform: uppercase;
+   line-height: 1.31;
+   text-align: left;
+}
+
+.GetInTouch p {
+   margin-top: 40px;
+   font-size: 16px;
+   font-family: "Open Sans";
+   color: rgb(0, 0, 0);
+   line-height: 1.75;
+   text-align: left;
+}
+
+.teamText img {
+    display: block;
+    margin-top: 20px;
+}

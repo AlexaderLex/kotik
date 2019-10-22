@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 10px 0;
+}
+
+body {
+    font-family: 'Helvetica Neue';
+    /* height: 1318px; */
+    width: 1020px;
+    margin: 0 auto;
+    background-image: url("../source/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+/******************** Header  */
+header {
+    height: 207px;
+    width: 1020px;
+    margin-top: 14px;
+    /* border: 1px solid orangered; */
+}
+
+.logo {
+    margin-top: -14px;
+    margin-left: 5px;
+    width: 235px;
+    /* border: 1px solid green; */
+    float: left;
+
+}
+
+.navPicx {
+    margin-top: 7px;
+    margin-left: 400px;
+}
+
+.navImg {
+    padding: 0 5px;
+}
+
+.navMail-link {
+    margin-left: 114px;
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+    color: rgb(167, 44, 44);
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.nav-wrap {
+    display: inline-block;
+    margin-left:-22px;
+    margin-top: 29px;
+    /* border: 1px solid green; */
+}
+
+.navSpan {
+    /* height: 15px; */
+    padding: 5px 10px ;
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+    /* color: rgb(61, 61, 61); */
+    line-height: 1.2;
+    text-align: left;
+    /* border: 1px solid blue; */
+}
+
+.about, .special {
+    border-right: 1px solid #aaa;
+}
+
+.special {
+    color: rgb(207, 50, 50); 
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.about, .contact {
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+    color: rgb(61, 61, 61);
+    line-height: 1.2;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+.call-section {
+    margin-top: -41px;
+    margin-left: 588px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+}
+
+.number1, .number2 {
+    font-size: 18px;
+    font-family: "Helvetica Neue";
+    color: rgb(207, 50, 50);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.callUs, .leaveNum {
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    color: rgb(160, 160, 160);
+    line-height: 1.2;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.cars {
+    margin: -3px auto;
+    height: 113px;
+    width: 952px;
+    background-image: url("../source/плашка.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+}
+
+.cars-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    height: 70px;
+    /* width: 80px; */
+}
+
+.carImg {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.carText {
+    display: flex;
+    justify-content: space-between;
+}
+.car-text {
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+    color: rgb(77, 77, 77);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+
+
+
+

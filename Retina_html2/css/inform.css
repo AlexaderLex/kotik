@@ -1,0 +1,75 @@
+ .inform h3 {
+     width: 286px;
+     height: 34px;
+     font-family: Raleway, sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     margin: 0 0 8px;
+     padding: 0 0 12px;
+     color: #4a4a4a;
+     border-bottom: 1.5px solid #eee;
+ }
+
+ .inform-wrap {
+     margin: 30px 20px 10px 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+ }
+
+
+ .inform-wrap h5 {
+     width: 286px;
+     padding-bottom: 10px;
+     color: rgb(114, 114, 114);
+     font-family: Verdana, Arial, sans-serif;
+     font-size: 12px;
+     font-weight: 700px;
+     line-height: 22px;
+ }
+
+ .aboutP, .hiringP, .serviceP {
+     margin: 10px 10px 10px 3px;
+     padding: 5px 5px 5px 0;
+     width: 286px;
+     font-family: Verdana, Arial, sans-serif;
+ }
+
+ .hhh {
+   font-family: Verdana, Arial, sans-serif;
+   font-size: 12px;
+   color: #727272; 
+   padding-top: 14px;
+ }
+ 
+ .hiringImg {
+    float: left;
+    padding: 0 10px;
+ }
+
+ .clear-fix {
+     clear: both;
+ }
+
+.informA {
+    font-family: Raleway, sans-serif;
+     font-size: 12px;
+     color: #00acef;
+     padding-left: 8px;
+ }
+
+ .aa {
+     font-weight: 700;
+ }
+
+ .serviceUl {
+     list-style-type: none;
+ }
+
+ .servLi {
+     padding: 10px 10px 12px;
+ }
+
+ .two, .four {
+    background-color: #F6f6f6;
+ }

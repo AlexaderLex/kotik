@@ -1,0 +1,129 @@
+
+ .sliderBig {
+     margin: 0 auto;
+     justify-content: center;
+     height: 425px;
+     width: 978px;
+     padding: 0 21px;
+     background-image: url("../img/slider-bg.jpg");
+     background-repeat: no-repeat;
+     background-position: 0 0;
+     float: left;
+     overflow: hidden;
+ }
+
+ .social {
+     padding: 18px 0 0;
+     text-align: right;
+ }
+
+ .social img {
+     width: 30px;
+     height: 30px;
+     background-color: #00acef;
+     border-radius: 100%;
+ }
+
+ .social img:hover {
+     cursor: pointer;
+     border-style: inset;
+     border: 2px solid #0091d7;
+     /* box-shadow: 1px; */
+ }
+
+ .slideContainer {
+     overflow: hidden;
+ }
+
+ .slider-wrap {
+     position: relative;
+     width: 938px;
+     height: 417px;
+ }
+
+ .slide1, .slide2 {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     padding: 0 10px;
+     justify-content: space-around;
+     align-items: flex-start;
+     width: 938px;
+ }
+
+ .slide1 {
+     top:0;
+     left:0px;
+     animation-name: slideLeft;
+     animation-duration: 3s;
+     animation-delay: 10s;
+     animation-direction: normal;
+     animation-iteration-count: 5;
+     animation-timing-function: ease-in-out;
+     animation-fill-mode: backwards;
+ }
+
+ @keyframes slideLeft {
+     from {left:0;}
+     to{left:-938px;}
+ }
+
+ 
+ .slide2 {
+     top:0;
+     left:948px;
+     animation-name: slideLeft2;
+     animation-duration: 3s;
+     animation-delay: 10s;
+     animation-direction: normal;
+     animation-iteration-count: 5;
+     animation-timing-function: ease-in-out;
+     animation-fill-mode: backwards;
+ }
+
+ @keyframes slideLeft2 {
+    from {left:948;}
+    to{left:0px;}
+}
+
+ .imgDiv {
+     height: 398px;
+     width: 365px;
+     margin: 0 50px 0 0;
+ }
+
+ .textDiv {
+     padding-top: 30px;
+     font-family: Verdana, Arial, sans-serif;
+     font-size: 12px;
+     width: 450px;
+     color: white;
+ }
+
+ .parH4 {
+     height: 22px;
+     font-family: Raleway, sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+     text-transform: uppercase; 
+ }
+
+ .parH1 {
+     height: 68px;
+     font-family: Raleway, sans-serif;
+     font-size: 56px;
+     font-weight: 900;
+ }
+
+ .paragP {
+     padding: 20px 0;
+     font-family: Verdana, sans-serif;
+     font-size: 12px;
+     line-height: 20px;
+ }
+
+ /* .fix-clean {
+     clear: both;
+ } */
+ 

@@ -1,0 +1,23 @@
+.slider {
+    overflow: hidden;
+}
+
+.slidPix {
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+    animation: slidPix 4s;
+}
+
+/* Define the animation */
+@keyframes slidPix {
+    from {
+      margin-left: 100%;
+      width: 50%;
+    }
+    to {
+      margin-left:0;
+      width: 60%;
+    }
+  }

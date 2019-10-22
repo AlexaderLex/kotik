@@ -1,0 +1,53 @@
+footer {
+    margin: 30px 0 0 34px;
+    /* width: 890px; */
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: -15px;
+    width: 970px;
+    /* border: 1px solid blue; */
+}
+
+ .right-wrap p {
+    font-size: 12px;
+    font-family: "Helvetica Neue";
+    color: rgb(133, 133, 133);
+    line-height: 1.2;
+    text-align: left;
+    
+ }
+
+ #call1 {
+    font-size: 12px;
+    color: rgb(160, 160, 160);
+    line-height: 1.2;
+    text-align: left;  
+ }
+
+ .callNum {
+    font-size: 18px;
+    color: rgb(140, 140, 140);
+    line-height: 1.2;
+    text-align: left;
+ }
+
+
+ .footInp {
+     display: inline;
+     margin-top: 20px;
+     margin-left: -10px;
+     width: 70px;
+     height: 31px;
+     border: 1px solid rgb(140, 140, 140);
+ }
+
+ .callNum {
+     margin-right:15px;
+ }
+
+ 

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans.eot');
+    src: url('../font/OpenSans.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans.woff2') format('woff2'),
+        url('../font/OpenSans.woff') format('woff'),
+        url('../font/OpenSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../font/MyriadPro-Regular.eot');
+    src: url('../font/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/MyriadPro-Regular.woff') format('woff'),
+        url('../font/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans bold';
+    src: url('../font/OpenSans-Extrabold.eot');
+    src: url('../font/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('../font/OpenSans-Extrabold.woff2') format('woff2'),
+        url('../font/OpenSans-Extrabold.woff') format('woff'),
+        url('../font/OpenSans-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;

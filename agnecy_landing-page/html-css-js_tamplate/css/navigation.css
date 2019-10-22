@@ -1,0 +1,30 @@
+body.home a.home, body.page2 a.page2, body.page3 a.page3, body.page4 a.page4 {
+    text-shadow: 1px 1px;
+    border: 2px solid #00ff40
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav ol li {
+    padding: 5px 15px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ol li a:link, nav ol li a:visited {
+    color:#0000a0;
+}
+
